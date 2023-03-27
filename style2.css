@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee8d6;
+}
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 10px; */
+    position: sticky;
+    /* top: 0;
+    z-index: 1; */
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    width: 100px;
+    height: 65px;
+    text-decoration: none;
+  }
+.navbar a img {
+    width: 100px;
+    height: 65px;
+  }
+
+
+.little-content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.little-content img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -1;
+}
+.judul {
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 200px;
+    left: 95px;
+  }
+
+  .isi{
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+  }
+
+  .button {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    font-weight: 1000;
+    font-size: large;
+    background-color: #FF4655;
+    border: solid 3px #ffffff;
+    border-collapse: separate;
+    border-spacing: 50px;
+    color: white;
+    padding: 25px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  a:hover {
+    background-color: #1d1e22;
+  }
+
+.navbar-stick {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-stick a{
+    float: left;
+    z-index: 1111;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fcfcfc;
+    text-align: center;
+    line-height: 60px;
+    width: 100px;
+    height: 60px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #1d1e22;
+  }
+
+.main-content {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+    .main-content img {
+        position: absolute;
+        left: 1200px;
+        width: 600px;
+        z-index: -1;
+    }
+    
+    .clip {
+        font-family: 'Anton', sans-serif;
+        background-color: #d8415a;
+        border: none;
+        color: white;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 880px;
+        left: 1170px;
+    }
+    
+    .agent-tittle{  
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+        position: relative;
+        left: 200px;
+        word-spacing: 50px;
+    }
+    .agent-tittle2{  
+        font-family: 'Anton', sans-serif;
+        color: #FF4655;
+        font-size: 80px;
+        position: relative;
+        left: 200px;
+        word-spacing: 50px;
+    }
